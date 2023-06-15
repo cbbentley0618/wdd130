@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comme&family=Shadows+Into+Light&display=swap');
 /*  Body  */
-#content{
+#content-home{
     max-width: 1600px;
     margin: 0 auto;
 }
-body{
+#home{
     background-color: lightblue;
     font-size: 22px;
     margin: 0 0;
@@ -69,7 +69,6 @@ nav a:hover{
     font-family: Comme, sans-serif;
 }
 .home-title{
-    color: #001d3d;
     font-family: "Shadows Into Light";
     font-size: 2em;
     margin-top: 10px;
@@ -86,10 +85,10 @@ h4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-main section{
+.home-grid section{
     text-align: center;
 }
-main section img{
+.home-grid section img{
     box-sizing: border-box;
 }
 .book, .join{
@@ -194,6 +193,62 @@ footer p a:hover{
 footer .social img{
     padding-top: 15px;
 }
+
+
+
+/* RIVERS PAGE (PAGE 2) */
+#rivers{
+    background-color: lightblue;
+    font-size: 22px;
+    margin: 0 0;
+    text-align: center;
+    /* padding: 0; */
+}
+#river-hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#river-hero img{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    width: 100%;
+}
+#river-hero h1{
+    color: #F7FF78;
+    font-family: "Shadows Into Light";
+    font-size: 8em;
+    margin-top: 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#main-card{
+    margin-bottom: -150px;
+}
+#main-card section{
+    border-top: 5px solid #001d3d;
+}
+#main-card h1{
+    font-family: "Shadows Into Light";
+    color: #001d3d;
+    font-size: 40px;
+}
+#main-card img{
+    width: 700px;
+    border-radius: 20px;
+    border: 3px solid #001d3d;
+}
+#main-card p{
+    max-width: 900px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: Comme, sans-serif;
+}
+
+
+
 
 
 @media screen and (max-width: 900px) {
