@@ -202,7 +202,11 @@ footer .social img{
     font-size: 22px;
     margin: 0 0;
     text-align: center;
-    /* padding: 0; */
+    
+}
+#content-rivers{
+    max-width: 1600px;
+    margin: 0 auto;
 }
 #river-hero{
     display: grid;
