@@ -138,7 +138,7 @@ h4{
 .mountains{
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10x #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 section h2{
     font-family: "Shadows Into Light";
@@ -230,10 +230,11 @@ footer .social img{
 #main-card section{
     border-top: 5px solid #001d3d;
 }
-#main-card h1{
+#main-card h2{
     font-family: "Shadows Into Light";
     color: #001d3d;
-    font-size: 40px;
+    font-size: 60px;
+    margin: 30px auto;
 }
 #main-card img{
     width: 700px;
